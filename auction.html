@@ -10,33 +10,56 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header__menu">
-            <a href="./index.html" class="header__link"> главная &#9675;</a>
-            <a href="./lots.html" class="header__link"> посмотреть лоты &#9675;</a>
-            <a href="./auction.html" class="header__link"> об аукционе </a>
-        </nav>
-        <img src="./images/logo.svg" alt=" " class="header__logo-image" style="padding-right:70px;">
-        <address class="address">
-            <a href="mailto:mail@example.com">+9 999 555 5555</a> <br>
-            <a href="mailto:mail@example.com">info@sobaka.ge</a>
-            <p>наб. Принсенграхт 263- </p>
-            <p>265, Амстердам</p>
-        </address>
-    </header>
-
-    <main class="back">
-        <div class="container">
-            <p style="text-align: start; "> ОНО </p>
-            <p style="text-align: center; "> ТЕБЕ </p> <br>
-            <p style="text-align: end; "> НАДО </p> <br>
+    <div class="grid-container">
+        <div class="item"><img src="./images/logo-column.png" alt=" " class=""></div>
+        <div>
+            <div class="auction_text">ОБ АУКЦИОНЕ</div>
         </div>
-        <div class="flex_container ">
-            <span>Аукцион вещей, в которые никто не верил</span> <span class="my_btn">Сделать ставку</span>
-        </div>
-    </main>
+        <div class="item"></div>
+        <div>
+            <div class="auction_text_low">Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+                антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник
+                девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи,
+                созданные любителями?
+            </div>
 
-    <!-- <footer>+</footer> -->
+            <div class="auction_text_low">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух
+                и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но,
+                несмотря
+                на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
+                культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
+                культовыми.
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+
+        <div>
+            <address class="address">
+                <a href="mailto:mail@example.com">+9 999 555 5555</a> <br>
+                <a href="mailto:mail@example.com">info@sobaka.ge</a>
+                <p>наб. Принсенграхт 263- </p>
+                <p>265, Амстердам</p>
+            </address>
+        </div>
+        <div>
+            <nav style="display: flex; flex-direction: column;">
+                <a href="./index.html" class="header__link"> главная </a>
+                <a href="./lots.html" class="header__link"> посмотреть лоты </a>
+                <a href="./auction.html" class="header__link"> об аукционе </a>
+            </nav>
+        </div>
+        <div><img src="./images/YouTube.png" alt=" "  style="padding-right:70px;">
+            <img src="./images/VK.png" alt=" "  style="padding-right:70px;">
+            <img src="./images/Pinterest.png" alt=" "  style="padding-right:70px;">
+        </div>
+
+
+
+    </footer>
 
 </body>
 

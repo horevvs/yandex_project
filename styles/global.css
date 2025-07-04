@@ -17,6 +17,35 @@ body {
     margin: auto;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* Или repeat(2, 1fr) */
+}
+
+.item {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.auction_container {
+    display: flex;
+}
+
+.auction_text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;
+    padding-top:100px;
+}
+
+.auction_text_low {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top:25px ;
+}
+
 .flex_container {
     padding-top: 100px;
     display: flex;
@@ -81,6 +110,16 @@ a {
     height: 596px;
 }
 
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    height: 20px;
+    width:100%;
+   
+    justify-content: space-around;
+}
+
 .footer_lots {
     width: 100%;
     margin: auto;
@@ -103,7 +142,8 @@ a {
     text-transform: uppercase;
     color: white;
 }
-.lots__look-more-link{
+
+.lots__look-more-link {
     padding-top: 2%;
     padding-left: 8%;
 }
